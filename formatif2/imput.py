@@ -1,4 +1,5 @@
-
+#mariana saikali, saimar09@ecolecatholique.ca
+#2020-12-04
 
 #demander le nom
 print("c'est quoi ton nom?")
