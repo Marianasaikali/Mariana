@@ -16,7 +16,7 @@ if reponse==1:
   print("Bonne reponse! Passe a la prochaine question")
   score+=1
 else:
-  print("Mauvaise réponse, réessayez.")
+  print("Mauvaise réponse, Passe a la prochaine question.")
 
 #Pose une autre question
 print("Qu'elle est la plus haute montagne du Canada?")
@@ -32,7 +32,7 @@ if reponse==3:
   #1 point si la reponse est bon
   score+=1
 else:
-  print("Mauvaise réponse, réessayez.")
+  print("Mauvaise réponse, Passe a la prochaine question.")
 
 #pose une autre question
 print("Quel est l'animal terrestre le plus rapide au monde?")
@@ -44,11 +44,11 @@ print("3 Kangaroo")
 print("4 Gazelle de Thompson")
 reponse=int(input())
 if reponse==2:
-  print("Bonne reponse! Passe a la prochaine question")
+  print("Bonne reponse!")
   #1 point si la reponse est bon
   score+=1
 else:
-  print("Mauvaise réponse, réessayez.")
+  print("Mauvaise réponse.")
 
-print(score+" /3")
-print(score)
+print("vous avez terminé le quiz.")
+print("Voici votre score: "+str(score)+"/3")
