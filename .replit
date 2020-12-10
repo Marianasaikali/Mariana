@@ -1,2 +1,2 @@
 language = "python3"
-run = "python formatif2/imput.py"
+run = "python travail/boucles.py"
