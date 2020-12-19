@@ -1,2 +1,2 @@
 language = "python3"
-run = "python travail/boucles.py"
+run = "python travail/Mad_libs.py"
